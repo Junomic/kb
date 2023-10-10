@@ -1,28 +1,58 @@
-![Help Desk](_media/logo.png)
+- Getting Started
 
-- [Help Desk](/?id=help-desk)
-  - [Features](/?id=features)
-  - [Live preview](/?id=live-preview)
-  - [Donate](/?id=donate)
-  - [Community](/?id=community)
+  - [Overview](README.md)
+  - [Quick Start](quick-start.md)
+  - [Examples](examples.md)
 
-- [Getting started](/getting-started?id=getting-started)
-    - [Prerequisites](/getting-started?id=prerequisites)
-    - [Installation](/getting-started?id=installation)
-      - [Clone the project](/getting-started?id=clone-the-project)
-      - [Install dependencies](/getting-started?id=install-dependencies)
-      - [Docker initialization](/getting-started?id=docker-initialization)
-      - [Database configuration](/getting-started?id=database-configuration)
-      - [Project structure](/getting-started?id=project-structure)
-      - [Theme customization](/getting-started?id=theme-customization)
+- Test Frameworks
 
-- [Configuration](/configuration?id=configuration)
-    - [Locales](/configuration?id=locales)
-    - [Main menu](/configuration?id=main-menu)
+  - [Mocha](test-frameworks/mocha.md)
+  - [QUnit](test-frameworks/qunit.md)
+  - [Jest & Jasmine](test-frameworks/jest-jasmine.md)
 
-- [Permissions](/permissions?id=permissions)
-    - [Seeder](/permissions?id=seeder)
+- Frameworks
 
-- [Screenshots](/screenshots?id=screenshots)
+  - [Ember CLI](frameworks/ember-cli.md)
 
-- [Changelog](/changelog?id=changelog)
+- Adapters
+
+  - [Fetch](adapters/fetch.md)
+  - [Node HTTP](adapters/node-http.md)
+  - [Playwright](adapters/playwright.md)
+  - [Puppeteer](adapters/puppeteer.md)
+  - [XHR](adapters/xhr.md)
+  - [Custom](adapters/custom.md)
+
+- Persisters
+
+  - [File System](persisters/fs.md)
+  - [Local Storage](persisters/local-storage.md)
+  - [REST](persisters/rest.md)
+  - [Custom](persisters/custom.md)
+
+- Client Server
+
+  - [Overview](server/overview.md)
+  - [API](server/api.md)
+  - [Events & Middleware](server/events-and-middleware.md)
+  - [Route Handler](server/route-handler.md)
+  - [Request](server/request.md)
+  - [Response](server/response.md)
+  - [Event](server/event.md)
+
+- Node Server
+
+  - [Overview](node-server/overview.md)
+  - [Express Integrations](node-server/express-integrations.md)
+
+- CLI
+
+  - [Overview](cli/overview.md)
+  - [Commands](cli/commands.md)
+
+- Reference
+
+  - [API](api.md)
+  - [Configuration](configuration.md)
+
+- [Contributing](CONTRIBUTING.md)
